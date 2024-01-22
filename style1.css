@@ -1,0 +1,135 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(228, 225, 214); */
+  color: rgb(159, 35, 30);
+}
+body {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+/* header */
+.header-plus {
+  background-color: rgb(228, 225, 214);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 8px;
+  border-bottom: 2px solid rgb(159, 35, 30);
+  margin: 0 1%;
+}
+.header-ho {
+  background-color: rgb(159, 35, 30);
+  color: white;
+  padding: 2px;
+}
+.header-home,
+.header-articles,
+.header-about {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.header-home:hover,
+.header-articles:hover,
+.header-about:hover {
+  background-color: rgb(159, 35, 30);
+  color: white;
+}
+
+/* footer */
+.footer {
+  min-height: 40vh;
+  width: 100vw;
+  position: absolute;
+  background-color: rgb(159, 35, 30);
+  color: white;
+  border-top: 20px solid rgb(228, 225, 214);
+}
+
+.footer-main {
+  position: relative;
+  height: 30vh;
+  margin: 20px;
+}
+
+.footer-mail p {
+  color: white;
+}
+.footer-footer {
+  color: white;
+  font-size: 1rem;
+  margin: 0 20px;
+}
+.footer-logos {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  gap: 50px;
+}
+.footer-logos a img {
+  width: 30px;
+}
+
+/* article1 -a */
+
+.a-main-plus {
+  background-color: rgb(228, 225, 214);
+}
+.a-main {
+  margin: 0 13px;
+}
+.a-main-header {
+  border-top: 10px solid rgb(228, 225, 214);
+  background-color: rgb(159, 35, 30);
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 5vh;
+}
+.a-main-section {
+  display: flex;
+  margin: 20px 10px;
+  align-items: start;
+}
+.a-main-sectiontitle {
+  /* background-color: rgb(159, 35, 30); */
+  font-size: 1.5rem;
+  flex: 1;
+}
+.a-main-sectiontitle p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.a-main-sectiontitle :first-child {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: -10px;
+}
+.a-main-sectiontext {
+  font-size: 1rem;
+  flex: 4;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.a-main-sectiontext ul {
+  margin-left: 10px;
+}
+.a-main-end {
+  font-size: smaller;
+  padding: 20px 10px;
+  border: 5px solid rgb(159, 35, 30);
+  margin: 60px 10px;
+}
+.a-references {
+  padding: 0 15px;
+}
+.a-references p {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,155 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(228, 225, 214); */
+  color: rgb(159, 35, 30);
+}
+body {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+/* header */
+.header-plus {
+  background-color: rgb(228, 225, 214);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 8px;
+  border-bottom: 2px solid rgb(159, 35, 30);
+  margin: 0 1%;
+}
+.header-ho {
+  background-color: rgb(159, 35, 30);
+  color: white;
+  padding: 2px;
+}
+.header-home,
+.header-articles,
+.header-about {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.header-home:hover,
+.header-articles:hover,
+.header-about:hover {
+  background-color: rgb(159, 35, 30);
+  color: white;
+}
+
+/* footer */
+.footer {
+  min-height: 40vh;
+  width: 100vw;
+  position: absolute;
+  background-color: rgb(159, 35, 30);
+  color: white;
+}
+
+.footer-main {
+  position: relative;
+  height: 30vh;
+  margin: 20px;
+}
+
+.footer-mail p {
+  color: white;
+}
+.footer-footer {
+  color: white;
+  font-size: 1rem;
+  margin: 0 20px;
+}
+.footer-logos {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  gap: 50px;
+}
+.footer-logos a img {
+  width: 30px;
+}
+
+.c {
+  background-color: rgb(228, 225, 214);
+}
+.c-title {
+  margin: 0 20px;
+  border-top: 10px solid rgb(228, 225, 214);
+}
+.c-title h3 {
+  background-color: rgb(159, 35, 30);
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+.c-title p {
+  font-size: smaller;
+  margin: 30px 10px;
+}
+.c-content h4 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.c-content-section {
+  display: flex;
+  margin: 40px 10px;
+}
+.c-content-section-num {
+  flex: 1;
+  font-size: 8rem;
+  align-self: center;
+  margin-left: 3vw;
+}
+.c-content-section-text {
+  width: 85%;
+}
+.c-content-section-text h5 {
+  font-weight: bold;
+}
+.c-content-section-text p {
+  font-size: smaller;
+}
+.c-diagram {
+  display: flex;
+  /* width: 100vw; */
+  justify-content: space-between;
+  margin: 15px;
+}
+.c-diagram-section {
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+}
+
+.c-diagram-img {
+  border: 2px dashed rgb(159, 35, 30);
+  width: 90%;
+}
+.c-diagram-text {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.c-end {
+  font-size: smaller;
+  margin: 0 30px;
+  border-bottom: 40px solid rgb(228, 225, 214);
+}
+
+@media (max-width: 960px) {
+  .c-diagram {
+    display: block;
+  }
+  .c-diagram-section {
+    width: 100vw;
+  }
+  .c-diagram-img {
+    width: 80%;
+    height: auto;
+  }
+}
